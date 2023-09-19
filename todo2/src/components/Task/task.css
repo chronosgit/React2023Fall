@@ -1,0 +1,22 @@
+.task {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #302f2f;
+}
+
+.taskTitle {
+    margin-bottom: 1rem;
+}
+
+.taskContent {
+    margin-bottom: 2rem;
+    word-wrap: break-word;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
