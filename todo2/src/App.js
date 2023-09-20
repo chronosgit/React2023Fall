@@ -24,7 +24,8 @@ function App() {
 					return {
 						id: taskId,
 						name: newTaskBody.name,
-						task: newTaskBody.task
+						task: newTaskBody.task,
+						deadline: newTaskBody.deadline
 					};
 				} else {
 					return task;

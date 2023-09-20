@@ -26,6 +26,7 @@ function Task(props) {
         <div className="task">
             <h2 className="taskTitle">{props.task.name}</h2>
             <p className="taskContent">{props.task.task}</p>
+            <p className="taskContent" style={{color: "red"}}>{props.task.deadline}</p>
             <div className="btns">
                 <Button size="small" style={{border: "none", backgroundColor: "green", color: "white"}} onClick={toggleEditing}>Edit</Button>
                 <Button type="primary" size="small" danger onClick={deleteTask}>Delete</Button>
