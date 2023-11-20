@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 1rem;
+    border-bottom: 1px solid var(--colorMain);
+}
+
+.header_logo {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.red {
+    color: #ec4242;
+    font-size: 1.2rem;
+}
+
+.header_link {
+    position: relative;
+    color: #ec4242;
+    text-decoration: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.header_link::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: #ec4242;
+    transition: all 0.3s ease;
+}
+
+.header_link:hover::before {
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.header_greetings {
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.header_pfp {
+    width: 2rem;
+    height: 2rem;
+    background-color: darkred;
+    border-radius: 50%;
+}

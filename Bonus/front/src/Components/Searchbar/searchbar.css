@@ -1,0 +1,22 @@
+.searchbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.searchbar_input, .searchbar_button {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(20, 20, 20);
+}
+
+.searchbar_input {
+    min-width: 15rem;
+    background-color: rgb(20, 20, 20);
+}
+
+.searchbar_input:focus {
+    outline: none;
+}
